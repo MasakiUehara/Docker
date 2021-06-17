@@ -7,6 +7,9 @@
 #古いDocker入るを削除する
 $ sudo apt-get remove docker docker-engine docker.io containerd runc
 
+#aptをhttps越しで利用できるようにするライブラリをインストール
+$ sudo apt install apt-transport-https ca-certificates curl software-properties-common
+
 # 環境をUpgradeする
 $ sudo apt-get update
 
